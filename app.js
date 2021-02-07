@@ -25,8 +25,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use('/api', get_routes);
 app.use('/api', post_routes);
 
-console.log("Server running on 8080")
-
+// Log removido para ambiente de produção [teste-branch]
 
 app.use(express.static('./public/index.html'));
 
